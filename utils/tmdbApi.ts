@@ -1,5 +1,8 @@
-export async function fetchTrendingMovies() {
+export async function 
+fetchTrendingMovies() {
   console.log("⚠ TMDB unreachable, using mock data");
+  console.log("TMDB API Key:", process.env.NEXT_PUBLIC_TMDB_API_KEY);
+
   return [
     {
       title: "The Matrix",
