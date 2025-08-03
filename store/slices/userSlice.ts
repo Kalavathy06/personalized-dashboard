@@ -7,7 +7,7 @@ type UserState = {
 };
 
 const initialState: UserState = {
-  preferences: ['business', 'general'],
+  preferences: ['technology', 'business'],
   darkMode: false,
   favorites: [],
 };

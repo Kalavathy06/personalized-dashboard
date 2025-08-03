@@ -14,6 +14,8 @@ const Dashboard = () => {
   }, [dispatch, prefs]);
 
   console.log('📌 Current Preferences:', prefs);
+  console.log("🟨 News:", news);
+
 
   return (
     <div className="min-h-screen p-4 bg-gray-100">
